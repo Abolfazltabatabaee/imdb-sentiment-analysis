@@ -1,22 +1,40 @@
-
-
-
+# Python
 __pycache__/
+**/__pycache__/
 *.py[cod]
 *$py.class
 
-data/raw
+# Virtual environments
+.venv/
+venv/
+env/
+.conda/
 
-/models/*.pkl
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
 
+# Data (raw dataset)
+data/raw/
 
+# Model artifacts (keep models/README.md, ignore generated files)
+models/*.pkl
+models/**/*.pkl
+
+# In case a wrong folder is generated
+src/models/
+
+# Editors / IDEs
 .vscode/
 .idea/
 *.sublime-workspace
 *.sublime-project
 
+# OS files
 .DS_Store
 Thumbs.db
 
+# Logs
 *.log
-
