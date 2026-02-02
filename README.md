@@ -26,3 +26,13 @@ The goal is to classify movie reviews as **positive** or **negative** based on t
 
 ## Project Structure
 
+```text
+imdb-sentiment-analysis/
+├── data/        # Dataset (not committed)
+├── models/      # Trained models (not committed)
+├── src/
+│   └── imdb_sa/ # Source code
+├── README.md
+└── requirements.txt
+
+
